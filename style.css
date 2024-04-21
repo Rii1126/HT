@@ -80,7 +80,6 @@ html {
     font-size: 100px;
     margin: 20px;
     padding: 40px;
-    
   }
 
   .food-card {
@@ -155,10 +154,10 @@ html {
   }
 
   hr {
-    border: none; /* Remove default border */
-      height: 1px; /* Set the height of the line */
-      background-color: rgb(201, 201, 201); /* Set the color of the line */
-      margin: 20px 0; /* Optional: Adjust margin as needed */
+    border: none; 
+      height: 1px; 
+      background-color: rgb(201, 201, 201); 
+      margin: 20px 0; 
   }
 
   .c-img {
@@ -167,7 +166,7 @@ html {
   }
 
   .star-rating {
-    font-size: 30px; /* Adjust the font size as needed */
+    font-size: 30px; 
     color: rgba(235, 235, 0, 0.89);
   }
  
@@ -196,24 +195,24 @@ html {
   }
 
   input {
-    border: none; /* Remove default border */
-    border-bottom: 1px solid black; /* Add underline */
-    outline: none; /* Remove default outline */
-    padding: 5px; /* Optional: Add padding for spacing */
+    border: none; 
+    border-bottom: 1px solid black; 
+    outline: none; 
+    padding: 5px; 
     margin: 40px 40px 10px 0;
   }
 
   .submit-button {
-    padding: 10px 20px; /* Add padding for button size */
-    border-radius: 10px; /* Set border radius */
-    border: none; /* Remove default border */
-    background-color: green; /* Set button color */
-    color: white; /* Set text color */
-    cursor: pointer; /* Set cursor to pointer on hover */
+    padding: 10px 20px; 
+    border-radius: 10px;
+    border: none; 
+    background-color: green; 
+    color: white; 
+    cursor: pointer; 
   }
-  /* Style for button hover effect */
+
   .submit-button:hover {
-    opacity: 0.8; /* Reduce opacity on hover for visual effect */
+    opacity: 0.8; 
   }
 
   div a {
