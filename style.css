@@ -1,0 +1,234 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.container {
+    margin: 0 40px ;
+    height: 100vh;
+}
+
+/* body {
+    background-color:rgb(252, 255, 87);
+} */
+
+.nav-bar {
+    padding: 20px 100px;
+}
+
+.nav-logo {
+    width: 240px;
+}
+
+.d-flex {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin: 10px;
+}
+
+.d-flex-contact {
+  display: flex;
+  align-items: left;
+  justify-content: flex-start;
+}
+
+.f-direction {
+  flex-direction: column;
+}
+
+.m-10 {
+    margin: 10px;
+}
+
+.p-10 {
+  padding: 10px;
+}
+
+.mb-10 {
+    margin-bottom: 10px;
+}
+
+.nav-link {
+    cursor: pointer;
+    font-weight: 600;
+    color: aliceblue;
+}
+
+#headerVideo {
+    position: fixed;
+    left: 0;
+    top: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -10;
+  }
+
+  .object-cover {
+    object-fit: cover;
+  }
+
+  .buzz {
+    text-align: center;
+    color: white;
+    font-size: 100px;
+    margin: 20px;
+    padding: 40px;
+    
+  }
+
+  .food-card {
+    background-color: aliceblue;
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+  }
+
+  .food-card:hover {
+    background-color: aliceblue;
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgb(114, 114, 114) 0px 15px 12px;
+    transition: 300ms ease;
+  }
+
+  .img-card {
+    width: 200px;
+    height: 160px;
+    border-radius: 10px;
+    margin-right: 10px;
+  }
+
+  .title {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    padding: 60px 0;
+  }
+
+  .z-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .about {
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px;
+
+  }
+
+  .a-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+
+  .img-logo {
+    width: 600px;
+  }
+
+  .testimonial {
+    background-color: white;
+    border-radius: 20px;
+  }
+
+  .t-card {
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin: 10px;
+    padding: 10px;
+    text-align: justify;
+  }
+
+  .t-pfp {
+    width: 10rem;
+  }
+
+  hr {
+    border: none; /* Remove default border */
+      height: 1px; /* Set the height of the line */
+      background-color: rgb(201, 201, 201); /* Set the color of the line */
+      margin: 20px 0; /* Optional: Adjust margin as needed */
+  }
+
+  .c-img {
+    display: flex;
+    align-items: center;
+  }
+
+  .star-rating {
+    font-size: 30px; /* Adjust the font size as needed */
+    color: rgba(235, 235, 0, 0.89);
+  }
+ 
+  .img-contact{
+    width: 700px;
+    margin-bottom: 20px;
+  }
+
+  .color{
+    color: black;
+  }
+
+  .contact {
+    background-color: white;
+  }
+
+  .a-text{
+    text-align:center;
+    font-size: 20px;
+    font-weight: 10px;
+  }
+
+
+  .c-title {
+    text-align: left;
+  }
+
+  input {
+    border: none; /* Remove default border */
+    border-bottom: 1px solid black; /* Add underline */
+    outline: none; /* Remove default outline */
+    padding: 5px; /* Optional: Add padding for spacing */
+    margin: 40px 40px 10px 0;
+  }
+
+  .submit-button {
+    padding: 10px 20px; /* Add padding for button size */
+    border-radius: 10px; /* Set border radius */
+    border: none; /* Remove default border */
+    background-color: green; /* Set button color */
+    color: white; /* Set text color */
+    cursor: pointer; /* Set cursor to pointer on hover */
+  }
+  /* Style for button hover effect */
+  .submit-button:hover {
+    opacity: 0.8; /* Reduce opacity on hover for visual effect */
+  }
+
+  div a {
+    color: white;
+    text-decoration: none;
+  }
+
+  div a:hover {
+    color: #95C717;
+  }
+
+  .s1 {
+    color: #95C717;
+  }
+
+  .s2 {
+    color: #F48522;
+  }
